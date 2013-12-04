@@ -1,0 +1,99 @@
+.header {
+	background-color: #AA0000;
+	height: 6em;
+	border-radius: 8px;
+}
+
+#logo {
+	float: left;
+}
+
+#logo img {
+	margin: 10px 10px 10px 10px;
+	height: 80px;
+	width: auto;
+}
+
+.header h1 {
+
+	float: center;
+	position: relative;
+	text-align: center;
+	font-size: 5em;
+}
+
+#eventchooser {
+	width: 200px;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	background-color: #AAAAAA;
+	position: absolute;
+	right: 0.5em;
+	bottom: 0px;
+	border-radius: 4px;
+	height: 1.15em;
+}
+
+#eventlist {
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	list-style: none;
+}
+#eventlist:before {
+	margin-right: 5px;
+	padding-left: 5px;
+	border-left: solid 1px;
+	content: "V";
+	position: absolute;
+	right: 0px;
+	background-color: #999999
+}
+
+.main {
+	width: 100%;
+	background: #999999;
+	overflow: auto;
+}
+
+#sidemenu {
+	width: 15%;
+	float: left;
+	text-align: left;
+	padding-right: 10px;
+	border-right: solid 1px;
+	height: 100%;
+	display:inline-block;
+}
+
+#menulist {
+	display:inline-block;
+}
+
+#content {
+	float: right;
+	text-align: left;
+	width: 80%;
+	margin-left: 20px;
+	height: 100%;
+	display: inline-block;
+}
+
+.footer {
+	bottom: 0px;
+	border-top: solid 1px;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	clear: both;
+}
+
+body {
+	position: absolute;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.footer, .header {
+	position: relative;
+}
