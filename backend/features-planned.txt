@@ -1,0 +1,2 @@
+?events - liefert alle verfügbaren events zurück
+
