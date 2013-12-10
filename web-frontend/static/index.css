@@ -1,17 +1,21 @@
 body {
-	width: 80%;
-	margin: auto;
-	padding: 0;
+	width:80%;
+	margin:auto;
+	padding:0;
 }
 
 #header {
 	margin-top:2em;
 	position:relative;
-	background-color: #A00;
+	background-color: #a00;
 	border-radius: 1em 1em 0 0;
-	box-shadow:0 0 0.5em 0.2em #ccc;
 	background: #feffff;
 	background: linear-gradient(to bottom, #feffff 0%,#ddf1f9 35%,#a0d8ef 100%);
+	z-index:1;
+}
+
+#header, #content-wrapper{
+	box-shadow:0 -0.1em 0.5em 0.2em #ccc;
 }
 
 #head-logo {
@@ -30,6 +34,12 @@ body {
 	font-style:italic;
 }
 
+#footer{
+	margin-top:0.2em;
+	text-align:center;
+	color:#aaa;
+}
+
 #eventlist {
 	position:absolute;
 	bottom:0;
@@ -38,39 +48,25 @@ body {
 	margin-right:1em;
 }
 
-#content-wrapper {
-	width: 100%;
-	background: #999;
-	overflow: auto;
+#content-wrapper{
+	background-color:#a0d8ef;
 }
 
-#sidemenu {
-	width: 15%;
-	float: left;
-	text-align: left;
-	padding-right: 10px;
-	border-right: solid 1px;
-	height: 100%;
+#menu-section{
+	padding:1em;
+	width:15%;
 	display:inline-block;
+	vertical-align:top;
 }
 
-#menulist {
+#menu-section .menu{
+	padding:0 0 0 2em;
+	margin:0;
+}
+
+#content{
+	padding:1em;
+	width:65%;
 	display:inline-block;
-}
-
-#content {
-	float: right;
-	text-align: left;
-	width: 80%;
-	margin-left: 20px;
-	height: 100%;
-	display: inline-block;
-}
-
-.footer {
-	bottom: 0px;
-	border-top: solid 1px;
-	width: 100%;
-	margin: 0px 0px 0px 0px;
-	clear: both;
+	vertical-align:top;
 }
