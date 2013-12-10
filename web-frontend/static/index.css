@@ -1,3 +1,7 @@
+html{
+	background-image:url(backdrop.png);
+}
+
 body {
 	width:80%;
 	margin:auto;
