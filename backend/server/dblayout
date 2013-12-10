@@ -1,0 +1,26 @@
+events:
+-> id
+-> name
+-> description
+
+modules:
+-> id
+-> name
+-> description
+-> active
+
+volunteers:
+-> id
+-> name
+-> mail
+
+user:
+-> id
+-> name
+-> password
+-> rights
+
+settings:
+-> id
+-> name
+-> value
