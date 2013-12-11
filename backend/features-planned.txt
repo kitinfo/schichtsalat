@@ -1,2 +1,8 @@
-?events - liefert alle verfügbaren events zurück
+﻿?events - liefert alle verfügbaren events zurück
 
+zuteilungsfunktionen:
+	-fcfs
+	-manuell
+	-local optimal match
+
+modular data per user: bspw. ophasengruppe etc
